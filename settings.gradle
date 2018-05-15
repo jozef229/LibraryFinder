@@ -1,2 +1,2 @@
-include ':app', ':commons'
+include ':app', ':common'
 include ':ios'

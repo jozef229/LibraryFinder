@@ -41,8 +41,8 @@ moe {
 
 dependencies {
     // Compile with 'jar' files in the project's 'lib' directory
-    compile fileTree(include: '*.jar', dir: 'lib')
-    implementation project(':commons')
+    implementation fileTree(include: '*.jar', dir: 'lib')
+    implementation project(path: ':common')
 }
 
 // Setup Eclipse
